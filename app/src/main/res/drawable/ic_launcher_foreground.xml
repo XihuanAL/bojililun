@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    哑铃剪影 + 军衔徽章小星，纯矢量绘制，无版权风险。
+    安全区为中心 66x66（坐标 21 ~ 87），本图所有元素均在其中。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 横杆 -->
+    <path
+        android:fillColor="#FF7A33"
+        android:pathData="M46,51.5 L62,51.5 L62,56.5 L46,56.5 Z" />
+    <!-- 左侧内片 -->
+    <path
+        android:fillColor="#FF9A5C"
+        android:pathData="M36,44 L46,44 L46,64 L36,64 Z" />
+    <!-- 左侧外片 -->
+    <path
+        android:fillColor="#FF7A33"
+        android:pathData="M27,48 L36,48 L36,60 L27,60 Z" />
+    <!-- 右侧内片 -->
+    <path
+        android:fillColor="#FF9A5C"
+        android:pathData="M62,44 L72,44 L72,64 L62,64 Z" />
+    <!-- 右侧外片 -->
+    <path
+        android:fillColor="#FF7A33"
+        android:pathData="M72,48 L81,48 L81,60 L72,60 Z" />
+
+    <!-- 军衔小星徽章 -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M54,71 L56.3,76.7 L62.4,77.2 L57.8,81.1 L59.3,87 L54,83.8 L48.7,87 L50.2,81.1 L45.6,77.2 L51.7,76.7 Z" />
+</vector>

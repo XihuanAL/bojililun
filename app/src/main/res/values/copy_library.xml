@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ============================================================
+    薄肌预备役 · 文案库
+    ============================================================
+    所有提醒语、激励语、空状态文案都集中在本文件，想改文案只动这里即可，无需改代码。
+
+    可用占位符（会在代码里替换成实际内容）：
+      {nick}  用户昵称，默认「预备役」
+      {ml}    当前剩余饮水量（毫升）
+      {done}  今日已喝水量（毫升）
+      {goal}  每日目标饮水量（毫升）
+      {time}  目标就寝时间，如 23:00
+      {min}   距离目标就寝还剩多少分钟
+      {week}  今天是周几，如 周三
+
+    新增 / 删除条目直接加减 <item> 即可，数量没有限制。
+    ============================================================
+-->
+<resources>
+
+    <!-- ============ 大水理论：喝水提醒（≥15 条，随机轮换） ============ -->
+    <string-array name="water_reminders">
+        <item>预备役同志，该补水了。</item>
+        <item>大水理论第 1 条：水是喝的，不是许愿的。</item>
+        <item>你的身体正在发信号，请立即响应。</item>
+        <item>肾已经上线了，就等你动个手。</item>
+        <item>离转正还差一口水的距离。</item>
+        <item>喝完这杯，你就是液态预备役。</item>
+        <item>别让杯子比你的训练计划还空。</item>
+        <item>今日水量未达标，系统已如实记录。</item>
+        <item>肌肉是水做的，先补原料。</item>
+        <item>这口水，敬未来的薄肌。</item>
+        <item>你已长时间未摄入液体，请注意。</item>
+        <item>大水不积极，薄肌有问题。</item>
+        <item>喝水这事儿，没人能替你代练。</item>
+        <item>再不喝，下次提醒就要点名了。</item>
+        <item>还差 {ml} ml，别装作没看见。</item>
+        <item>咕咚咕咚，这是进步的声音。</item>
+        <item>预备役含水量偏低，请立即充电。</item>
+        <item>别人在卷，你在脱水，不合适。</item>
+        <item>一杯水下肚，离目标近一步。</item>
+        <item>今天的水，别留到明天当遗憾。</item>
+    </string-array>
+
+    <!-- ============ 大水理论：达成目标文案 ============ -->
+    <string-array name="water_done">
+        <item>今日大水目标已达成，离转正又近一步。</item>
+        <item>大水理论今日结课，成绩：合格。</item>
+        <item>水分充足，组织上予以肯定。</item>
+        <item>喝够了，今天的你很润。</item>
+        <item>水量达标，明天继续保持，别飘。</item>
+        <item>目标达成，杯子可以骄傲地立着了。</item>
+        <item>今日大水任务完成，薄肌进度 +1。</item>
+        <item>水喝够了，剩下的交给时间。</item>
+        <item>{done} ml 全部到位，今天的你很讲武德。</item>
+        <item>今日不再提醒，剩下的水自由发挥。</item>
+    </string-array>
+
+    <!-- ============ 大水理论：空状态 / 提示 ============ -->
+    <string-array name="water_empty">
+        <item>今天还没喝过水，先来一杯试试。</item>
+        <item>进度条是空的，同志。</item>
+        <item>一滴未进，组织表示关切。</item>
+        <item>从第一杯开始，比什么都强。</item>
+    </string-array>
+
+    <!-- ============ 大水理论：页面大字激励语（点击切换，随机轮换） ============ -->
+    <string-array name="water_quotes">
+        <item>水喝够了，肌肉才显形。</item>
+        <item>你不是在喝水，你是在给薄肌打地基。</item>
+        <item>别人靠天赋，你靠一天八杯。</item>
+        <item>杯子满了，进度条才动。</item>
+        <item>每一口，都是给明天的自己续命。</item>
+        <item>大水理论的核心：别让自己干着。</item>
+        <item>脱水的人，练不动，也帅不起来。</item>
+        <item>补水，是成本最低的变强方式。</item>
+        <item>你今天要流的汗，得先有水可流。</item>
+        <item>预备役不怕苦，就怕干。</item>
+        <item>水喝到位，状态才到位。</item>
+        <item>这不是喝水，这是日常维护。</item>
+        <item>想薄肌先别脱水，顺序别搞反。</item>
+        <item>一杯水的事，别拖成一整天的债。</item>
+        <item>进度条不会自己满，除非你动手。</item>
+        <item>今天的水，是明天的线条。</item>
+        <item>把喝水，当成今天训练的第一组。</item>
+        <item>身体六成是水，剩下的是潜力。</item>
+    </string-array>
+
+    <!-- ============ 大睡理论：就寝提醒（≥15 条，随机轮换） ============ -->
+    <string-array name="sleep_reminders">
+        <item>再不睡，薄肌理论要挂科了。</item>
+        <item>肌肉是在睡觉时长出来的，不是练的时候。</item>
+        <item>大睡理论提醒你：该下线了。</item>
+        <item>屏幕的光，照不亮你的薄肌。</item>
+        <item>明天的你，会感谢现在放下手机的你。</item>
+        <item>距离目标就寝还有 {min} 分钟，请先放下手机。</item>
+        <item>熬夜不长肌肉，只长黑眼圈。</item>
+        <item>预备役同志，就寝时间已到。</item>
+        <item>再刷五分钟，明天多困两小时。</item>
+        <item>早睡，是性价比最高的补剂。</item>
+        <item>你的生长激素想上班了，给它个机会。</item>
+        <item>睡够，才有力气继续当预备役。</item>
+        <item>今晚早点睡，明天才有资格喊累。</item>
+        <item>手机可以明天再刷，肌肉只能今晚长。</item>
+        <item>熄灯倒计时开始，请各就各位。</item>
+        <item>睡吧，梦里什么都有，包括薄肌。</item>
+        <item>早睡打卡，是今天最后一项任务。</item>
+        <item>大睡理论学分，今晚别再挂了。</item>
+        <item>目标 {time} 上床，现在开始收尾还来得及。</item>
+    </string-array>
+
+    <!-- ============ 大睡理论：睡前追加提醒 ============ -->
+    <string-array name="sleep_followup">
+        <item>最后一次提醒：真的该睡了。</item>
+        <item>大睡理论最终通牒：放下手机。</item>
+        <item>再拖就天亮了，预备役同志。</item>
+        <item>闭眼倒计时，三、二、一。</item>
+        <item>这真的是最后一条了，晚安。</item>
+        <item>今天的最后一次温柔提醒，之后就是明天的事。</item>
+    </string-array>
+
+    <!-- ============ 大睡理论：记录反馈 ============ -->
+    <string name="sleep_record_ontime_title">昨晚按时睡了吗？</string>
+    <string-array name="sleep_done">
+        <item>昨晚按时睡，大睡理论今日学分到手。</item>
+        <item>很好，睡眠也是训练的一部分。</item>
+        <item>组织已记录：昨晚表现合格。</item>
+        <item>早睡成功，今天的精神请好好使用。</item>
+    </string-array>
+    <string-array name="sleep_miss">
+        <item>昨晚没忍住？今天补回来就行。</item>
+        <item>记录在案，但不追责，今晚再来。</item>
+        <item>偶尔挂科不影响毕业，别连挂。</item>
+        <item>黑眼圈是暂时的，薄肌是长久的。</item>
+    </string-array>
+    <string-array name="sleep_empty">
+        <item>还没有睡眠记录，今晚开始吧。</item>
+        <item>大睡理论暂无成绩，等你第一晚。</item>
+    </string-array>
+
+    <!-- ============ 大睡理论：页面大字激励语（点击切换，随机轮换） ============ -->
+    <string-array name="sleep_quotes">
+        <item>睡够的人，才练得动。</item>
+        <item>肌肉在夜里长，你在夜里熬，亏的是你自己。</item>
+        <item>早睡，是性价比最高的补剂。</item>
+        <item>今天的强度，靠今晚的睡眠兑现。</item>
+        <item>熬夜换来的时间，第二天会加倍还回去。</item>
+        <item>大睡理论：越会休息，越会变强。</item>
+        <item>你在床上躺的每一小时，都在算数。</item>
+        <item>黑眼圈不帅，清醒才帅。</item>
+        <item>训练是刺激，睡眠是结果。</item>
+        <item>别用熬夜证明你很努力。</item>
+        <item>睡够八小时，比多练一组更值。</item>
+        <item>熄灯，是最便宜的恢复手段。</item>
+        <item>今晚早睡，明早才有底气照镜子。</item>
+        <item>恢复不到位，练得再狠也是白给。</item>
+        <item>早睡这件事，没人能替你代练。</item>
+        <item>把最后一点清醒，留给明天。</item>
+        <item>熬夜，是一种慢性退训。</item>
+        <item>睡吧，薄肌在梦里等你。</item>
+    </string-array>
+
+    <!-- ============ 薄肌理论：激励语库（≥30 条，每次随机，可点击切换） ============ -->
+    <string-array name="muscle_quotes">
+        <item>薄肌不是天赋，是重复。</item>
+        <item>今天偷的懒，明天都会变成脂肪来找你。</item>
+        <item>预备役不怕慢，就怕停。</item>
+        <item>你去练，剩下的交给时间。</item>
+        <item>铁不会骗你，你举几次它记几次。</item>
+        <item>想转正？先去流汗。</item>
+        <item>别人的腹肌是练出来的，你的还在排队。</item>
+        <item>别问什么时候有效果，先回答今天去不去。</item>
+        <item>状态不好？去练，状态不好是假的。</item>
+        <item>你缺的不是计划，是出门。</item>
+        <item>每一次力竭，都是给未来的自己写信。</item>
+        <item>大重量不会辜负任何一个老实人。</item>
+        <item>预备役的勋章，是一身薄肌。</item>
+        <item>练完这组的你，比打开 App 的你更帅。</item>
+        <item>今天的酸痛，是明天的轮廓。</item>
+        <item>别在门口犹豫，器械不会自己动。</item>
+        <item>自律不是苦行，是你终于开始认真了。</item>
+        <item>一年后的你，会感谢今天没缺席的自己。</item>
+        <item>脂肪最怕的，是你突然开始坚持。</item>
+        <item>有空焦虑，不如有空深蹲。</item>
+        <item>你的极限，上次也是这么说的。</item>
+        <item>训练日记写不写无所谓，人到了就行。</item>
+        <item>每次走进健身房，都是给未来的自己投票。</item>
+        <item>想快？先把动作做标准。</item>
+        <item>进步藏在你最想放弃的那两下里。</item>
+        <item>预备役同志，组织在看你训练。</item>
+        <item>铁馆里没有天才，只有来得早的人。</item>
+        <item>今天练腿？那明天见。</item>
+        <item>别怕慢，怕的是原地站着还不服。</item>
+        <item>身材是写给世界的简历，先去投一版。</item>
+        <item>你已经比昨天强一点点了，继续。</item>
+        <item>组间刷手机的时间，够再做两组。</item>
+        <item>把「下次一定」改成「现在就走」。</item>
+        <item>薄肌预备役，今天也要好好举铁。</item>
+        <item>热身做完，剩下的就简单了。</item>
+        <item>不要跟别人比，跟上个月比。</item>
+        <item>今天唯一需要打败的，是沙发。</item>
+        <item>你不是没时间，你只是还没开始。</item>
+    </string-array>
+
+    <!-- ============ 薄肌理论：健身日提醒文案（从激励语中随机，另有专用条） ============ -->
+    <string-array name="muscle_reminders">
+        <item>今天是健身日，预备役同志，该出门了。</item>
+        <item>大肌预警：今日训练窗口已开启。</item>
+        <item>{week}到了，器械已经在等你。</item>
+        <item>今日薄肌理论开课，请勿缺席。</item>
+        <item>健身房离你不远，转正离你也不远。</item>
+    </string-array>
+
+    <!-- ============ 总览页：随机开场白 ============ -->
+    <string-array name="overview_openers">
+        <item>今日份预备役日报，请查收。</item>
+        <item>早上好，{nick}。今天也要努力转正。</item>
+        <item>欢迎回到大本营，先看看今天的进度。</item>
+        <item>报告！今日补水与就寝情况如下。</item>
+        <item>又是一天，离薄肌又近 24 小时。</item>
+        <item>今日任务：喝水、早睡、别怂。</item>
+        <item>系统重启完毕，{nick} 状态：待转正。</item>
+        <item>今天的你，比昨天更有希望。</item>
+        <item>打卡时间到，先看看今天还差多少。</item>
+        <item>预备役日报：一切正常，除了还没转正。</item>
+        <item>新的一天，新的开始，别找新的借口。</item>
+        <item>醒醒，薄肌还在等你去领。</item>
+        <item>今日营业中，{nick} 请就位。</item>
+        <item>离梦想有点远，但今天可以走两步。</item>
+    </string-array>
+
+    <!-- ============ 启动页 ============ -->
+    <string name="splash_title">薄肌预备役</string>
+    <string name="splash_subtitle">还在努力，还没到位</string>
+
+    <!-- ============ 通用 ============ -->
+    <string name="tab_overview">总览</string>
+    <string name="tab_water">大水理论</string>
+    <string name="tab_sleep">大睡理论</string>
+    <string name="tab_muscle">薄肌理论</string>
+
+</resources>

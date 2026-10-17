@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 构建产物（APK 定期重新生成，不入库）
+/apk
+*.apk
+*.aab
+
+# 本地会话 / 记忆数据
+/.workbuddy
